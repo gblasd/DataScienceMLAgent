@@ -1,0 +1,17 @@
+# enviroment variables
+pyyaml
+requests
+python-dotenv
+
+# data manipulation
+pandas
+
+# models
+joblib
+
+# ML
+optuna
+scikit-learn
+
+# UI
+streamlit
