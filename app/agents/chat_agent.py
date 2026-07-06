@@ -9,9 +9,9 @@ from joblib import dump
 from pandas.api.types import is_numeric_dtype
 
 # Import our modules
-from src.tools import gpu_tools
-from src.tools.exp_store import ExperimentStore
-from src import llm
+from app.agents.tools import gpu_tools
+from app.agents.tools.exp_store import ExperimentStore
+from app.services import llm
 
 def setup_fake_cupy():
     """Create a fake cupy module if it's not installed."""

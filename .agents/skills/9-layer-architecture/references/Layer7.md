@@ -1,17 +1,17 @@
-# Layer 7 `.claude/` - The AI coding Assistant Menory Layer
+# Layer 7 `.antigravity/` - The AI coding Assistant Menory Layer
 
 The sevnth layer is:
 
 ```Plain Text
-.claude/
+.antigravity/
 └── rules/
     ├── code-style.md
     └── testing.md
-CLAUDE.md
+ANTIGRAVITY.md
 AGENTS.md
 ```
 
-The `.claude/` layer gives your AI coding assistant project context before it touches your codebase.
+The `.antigravity/` layer gives your AI coding assistant project context before it touches your codebase.
 
 We explain the project.
 
@@ -22,7 +22,7 @@ We explain testing rules.
 We explain what should be avoided.
 We explain how features should be added.
 
-- `CLAUDE.md` : This file explains the project to the AI assistant. We can think of like a project instruction manual.
+- `ANTIGRAVITY.md` : This file explains the project to the AI assistant. We can think of like a project instruction manual.
 
 For example:
 
@@ -58,7 +58,7 @@ Each agent should:
 - avoid direct database writes unless required
 ```
 
-- `.claude/rules/code-style.md`: This file defines coding style rules.
+- `.antigravity/rules/code-style.md`: This file defines coding style rules.
 
 ```Markdown
 # Code Style Rules
@@ -70,7 +70,7 @@ Each agent should:
 - Follow the existing folder structure.
 ```
 
-- `.claude/rules/testing.md`: This file tells the AI assistant how testing should be done.
+- `.antigravity/rules/testing.md`: This file tells the AI assistant how testing should be done.
 
 ```Markdown
 # Testing Rules
@@ -84,7 +84,7 @@ When adding or changing a feature:
 ```
 
 ## Why We Need This Layer
-The `.claude/` layer exists because AI coding assistants are powerful, but they need direction. Without project context, they can create code that looks correct but damages the architecture. With project context, they become more useful.
+The `.antigravity/` layer exists because AI coding assistants are powerful, but they need direction. Without project context, they can create code that looks correct but damages the architecture. With project context, they become more useful.
 
 * They understand your structure.
 * They follow your rules.

@@ -12,7 +12,7 @@ load_dotenv()  # Loads the variables into the environment
 
 
 # Configuration
-CONFIG_PATH = Path(__file__).with_name("config.yaml")
+CONFIG_PATH = Path(__file__).parent.parent / "config.yaml"
 
 with CONFIG_PATH.open("r", encoding="utf-8") as config_file:
     CONFIG = yaml.safe_load(config_file) or {}

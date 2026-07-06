@@ -48,7 +48,7 @@ with st.sidebar:
         st.badge("API Online", icon=":material/check_circle:", color="green")
     else:
         st.badge("API Offline", icon=":material/error:", color="red")
-        st.error("Please run the backend: `fastapi dev app.py`")
+        st.error("Please run the backend: `fastapi dev app/main.py`")
         
     st.space("medium")
     

@@ -6,7 +6,7 @@ from typing import Dict, List, Optional
 class ExperimentStore:
     """Simple storage for machine learning experiments results."""
 
-    def __init__(self, runs_file="runs/experiments.json"):
+    def __init__(self, runs_file="observability/runs/experiments.json"):
         self.runs_file = Path(runs_file)
 
         # Creates the directory if it doesn't exists

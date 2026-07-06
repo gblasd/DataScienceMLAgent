@@ -15,7 +15,7 @@ When you create a AI system, a real system architecture that follow a production
 4. **Layer 4** — `security/` - The Safety Gate of the AI System. See [references/Layer4.md](references/Layer4.md).
 5. **Layer 5** — `evaluation/` - The Testing Layer for AI Quality. See [references/Layer5.md](references/Layer5.md).
 6. **Layer 6** — `observability/` - Whatching What Happens Inside the AI System. See [references/Layer6.md](references/Layer6.md).
-7. **Layer 7** — `.claude/` - The AI coding Assistant Menory Layer. See [references/Layer7.md](references/Layer7.md).
+7. **Layer 7** — `.antigravity/` - The AI coding Assistant Menory Layer. See [references/Layer7.md](references/Layer7.md).
 8. **Layer 8** — `data/` - Where Raw Knowledge Becomes Usable AI Context. See [references/Layer8.md](references/Layer8.md).
 9. **Layer 9** — `test/` - The Layer That Stops Your AI App From Breaking Silently. See [references/Layer9.md](references/Layer9.md).
 
@@ -99,12 +99,12 @@ production-ai-app/
 │   ├── api_reference.md
 │   └── deployment.md
 │
-├── .claude/
+├── .antigravity/
 │   └── rules/
 │       ├── code-style.md
 │       └── testing.md
 │
-├── CLAUDE.md
+├── ANTIGRAVITY.md
 ├── AGENTS.md
 ├── docker-compose.yml
 ├── pyproject.toml

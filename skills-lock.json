@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "developing-with-streamlit": {
+      "source": "streamlit/agent-skills",
+      "sourceType": "github",
+      "skillPath": "developing-with-streamlit/SKILL.md",
+      "computedHash": "9f8006c37398b5c6a27043bdfe3a25d4aafdfb53413618c88d2c978932f9d08e"
+    },
+    "fastapi": {
+      "source": "fastapi/fastapi",
+      "sourceType": "github",
+      "skillPath": "fastapi/.agents/skills/fastapi/SKILL.md",
+      "computedHash": "e85d9e223fbc3183b1a599bbe8b02d2edf275d046ff5bcfd14352c92cdff52b3"
+    },
+    "nemotron-customize": {
+      "source": "NVIDIA/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nemotron-customize/SKILL.md",
+      "computedHash": "16987fa38e2f8a4e7540a0de63e419c3f341f0b9203921b786b8caf94061d95c"
+    },
+    "openai-knowledge": {
+      "source": "openai/openai-agents-python",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/openai-knowledge/SKILL.md",
+      "computedHash": "73d1dcef59cab02b678375766e30df5169eb307cc5f84aa86c72b1236519240c"
+    }
+  }
+}

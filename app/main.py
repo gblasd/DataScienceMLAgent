@@ -10,7 +10,7 @@ from fastapi import FastAPI, UploadFile, File, Depends, HTTPException
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
-from src.chat_agent import ChatAgent
+from app.agents.chat_agent import ChatAgent
 
 # ============= ADD TIMING DECORATOR HERE =============
 def track_execution_time(method_name):
