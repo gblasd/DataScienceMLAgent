@@ -13,5 +13,8 @@ joblib
 optuna
 scikit-learn
 
-# UI
+# API
+fastapi[standard]
+python-multipart
+requests
 streamlit
